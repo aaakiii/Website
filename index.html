@@ -19,18 +19,69 @@
           <ul>
             <li class="current"><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
-    <section id="Asia">
+
+    <section id="topImage">
+      <div class="container">
+        <h1>Affordable Web Design For Small And Medium-sized Companies</h1>
+        <p>Here, I will put some photos.</p>
+      </div>
     </section>
-    <section id="Europe">
+    
+    <section id="choosePlace">
+      <div class="container">
+        <h1>Where do you want to go?</h1>
+        <!-- 行き先を選べるようにする -->
+        <form method="POST" action="example.cgi" name="form1" onSubmit="return check()">
+          <p>
+            <select name="select1"> 
+              <option value="">Choose the area</option>
+              <option value="asia">Asia</option>
+              <option value="northamerica">North America</option>
+              <option value="europe">Europe</option>
+              <option value="oceania">Oceania</option>
+            </select>
+          </p>
+          <p><input type="submit" value="送信"></p>
+        </form>
+       
+      </div>
     </section>
-    <section id="North America">
+    
+    <section id="main">
+      <div class="container">
+        <div class="box">
+          <i class="fa fa-signal fa-5x"></i>
+          <h3>Asia</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi nulla id quisquam veritatis eius perspiciatis velit eum unde soluta, veniam aliquid deleniti ex similique. Aperiam molestiae natus nulla sit, quis.</p>
+          <a href="asia.html">Read more...</a>
+        </div>
+        <div class="box">
+          <i class="fa fa-photo fa-5x"></i>
+          <h3>North America</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quia magnam, voluptates, impedit eum laboriosam assumenda eos sit at nihil, dolore! Aliquam, laborum neque corporis molestiae eius ea laudantium porro.</p>
+          <a href="northamerica.html">Read more...</a>
+        </div>
+        <div class="box">
+          <i class="fa fa-cube fa-5x"></i>
+          <h3>Europe</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quia magnam, voluptates, impedit eum laboriosam assumenda eos sit at nihil, dolore! Aliquam, laborum neque corporis molestiae eius ea laudantium porro.</p>
+          <a href="europe.html">Read more...</a>
+        </div>
+        <div class="box">
+          <i class="fa fa-cube fa-5x"></i>
+          <h3>Oceania</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quia magnam, voluptates, impedit eum laboriosam assumenda eos sit at nihil, dolore! Aliquam, laborum neque corporis molestiae eius ea laudantium porro.</p>
+          <a href="oceania.html">Read more...</a>
+        </div>
+
+      </div>
     </section>
-    <section id="Australia">
-    </section>
+  
     <footer>
       <p>All about city guide, Copyright &copy; 2018</p>
     </footer>
